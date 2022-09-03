@@ -354,6 +354,11 @@ img {
 }
 #contact-a .form-fields .btn-dark {
   grid-area: button;
+  border-radius: 1rem;
+}
+#contact-a .form-fields .btn-dark:hover {
+  box-shadow: 2px 3px 10px #ef6d6d;
+  transition: all 1s;
 }
 #contact-a .form-fields .input {
   padding: 0.5rem 1rem;
